@@ -1,0 +1,111 @@
+.nomSite{
+	color:white;
+}
+.menu{
+	text-align: center;
+}
+	.menu li{
+	list-style-type: none;
+	
+}
+	.menu a, a:visited{
+		font-size: 30px;
+		color:white;
+		text-decoration: none;
+}
+.footertext{
+	color:white;
+	font-size:15px;
+	text-align: center;
+}
+
+#presentation, #ppeDescription{
+	background-color: #F0F0F0;
+	margin-top:60px;
+	text-align: center;
+	color:#E64A19;
+	font-weight: bold;
+	font-size:32px;
+}
+	.textDepres{
+		text-align:justify;
+		color:#E64A19;
+		font-weight: normal;
+		font-size:22px;
+
+	}
+	.textDepres a{
+		text-decoration: none;
+		color:#E64A19;
+	}
+	#photoProfil{
+		width:220px;
+	}
+
+	#pdf{
+		text-align:center;
+		margin-top:10px;
+	}
+		#pdf a{
+			text-decoration: none; 
+			background-color: transparent;  
+			font-weight: bold; 
+			line-height: 30px; 
+			color: #E64A19;; 
+			padding: 15px 15px;; 
+			font-size: 14px; 
+			border: 1px solid #999; 
+			border-radius: 4px;
+		}
+		#pdf a:hover{
+			text-decoration: none; 
+			background-color:#E64A19 !important; 
+			color: #FFF; 
+			border: none;
+		}
+
+#mesProjets, #veille,#methodeTech,#competenceProjet, #slideshow{
+	background-color: white;
+	margin-top:px;
+	text-align: center;
+	color:#E64A19;
+	font-weight: bold;
+	font-size:32px;
+}
+	#mesProjets tbody>tr{
+		cursor: pointer;
+	}
+	
+.thead-default{
+		color:black;
+		font-size: 24px;
+	}
+.tbody-default{
+		color:grey;
+		font-size:20px;
+	}
+	
+
+#competences, #contact, #contrainte, #annexe{
+	background-color: #F0F0F0;
+	margin-top:0px;
+	text-align: center;
+	color:#E64A19;
+	font-weight: bold;
+	font-size:32px;
+}
+	
+
+#titreSitObl, #titreActCom, #titreActSLAM{
+		text-align:left;
+		cursor:pointer;
+	}
+
+.explication, #texteVeille,.legende{
+	color:grey;
+	font-size: 14px;
+}
+.paragraphedefault{
+	font-size:20px;
+	
+}
