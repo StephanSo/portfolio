@@ -19,7 +19,7 @@
 	text-align: center;
 }
 
-#presentation, #ppeDescription{
+#presentation, #ppeDescription, #cv1{
 	background-color: #F0F0F0;
 	margin-top:60px;
 	text-align: center;
@@ -101,11 +101,50 @@
 		cursor:pointer;
 	}
 
-.explication, #texteVeille,.legende{
+.explication, #texteVeille,.legende,.cvtxt{
 	color:grey;
 	font-size: 14px;
 }
 .paragraphedefault{
 	font-size:20px;
 	
+}
+
+
+/*Page du CV */
+
+.blocgauche.col-xs-12.col-sm-12 {
+	margin-left: 0;
+	margin-right: 0;
+}
+.blocdroit.col-xs-12.col-sm-12 {
+	margin-left: 0;
+	margin-right: 0;
+}
+.blocgauche.border {
+	border-left: 5px solid #eee;
+	border-color:#FF5722;
+}
+.blocdroit.border {
+	border-right: 5px solid #eee;
+	border-color:#FF5722;
+}
+.annee {
+	margin-top: 60px;
+	padding: 0px;
+	text-align: center;
+
+}
+.contenu{
+	width:70%;
+	border-style: ridge;
+	border-width: 0.001px;
+	border-color: #FF5722;
+	margin-top:10px;
+}
+.titreGauche{
+	text-align: left !important;
+}
+.titreDroit{
+	text-align: right !important;
 }
