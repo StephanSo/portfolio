@@ -26,6 +26,7 @@
 	color:#E64A19;
 	font-weight: bold;
 	font-size:32px;
+	margin-bottom: 20px;
 }
 	.textDepres{
 		text-align:justify;
@@ -64,13 +65,14 @@
 			border: none;
 		}
 
-#mesProjets, #veille,#methodeTech,#competenceProjet, #slideshow{
+#mesProjets, #veille,#methodeTech,#competenceProjet, #slideshow,#cv2{
 	background-color: white;
 	margin-top:px;
 	text-align: center;
 	color:#E64A19;
 	font-weight: bold;
 	font-size:32px;
+	margin-bottom: 20px;
 }
 	#mesProjets tbody>tr{
 		cursor: pointer;
@@ -122,11 +124,11 @@
 	margin-right: 0;
 }
 .blocgauche.border {
-	border-left: 5px solid #eee;
+	border-left: 3px solid #eee;
 	border-color:#FF5722;
 }
 .blocdroit.border {
-	border-right: 5px solid #eee;
+	border-right: 3px solid #eee;
 	border-color:#FF5722;
 }
 .annee {
