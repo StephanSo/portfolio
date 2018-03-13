@@ -28,11 +28,18 @@
 	font-size:32px;
 	margin-bottom: 20px;
 }
+.textDepress{
+	text-align:justify;
+	color: #4d4d4d;
+	font-weight: normal;
+	font-size:22px;
+
+}
 	.textDepres{
 		text-align:justify;
-		color:#E64A19;
+		color: #4d4d4d;
 		font-weight: normal;
-		font-size:22px;
+		font-size:18px;
 
 	}
 	.textDepres a{
