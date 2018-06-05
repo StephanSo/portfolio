@@ -186,12 +186,22 @@ function ouvertureActiviteSlam(){
     });
 }
 
+
+function agrandireFeuilleRecette(){
+    $('#myCarousel3').click(function(){
+        $(this).css('transform','scale(1)');
+        delay(500);
+        $(this).css('transform','scale(1)');
+    });
+}
+
 function appelDesFonctions(){
     ouvertureMenu();
     ouvertureProjet();
     ouvertureSituationsObligatoire();
     ouvertureActivitesCommunes();
     ouvertureActiviteSlam();
+    agrandireFeuilleRecette();
 }
 
 
