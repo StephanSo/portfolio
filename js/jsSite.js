@@ -186,12 +186,54 @@ function ouvertureActiviteSlam(){
     });
 }
 
-
 function agrandireFeuilleRecette(){
-    $('#myCarousel3').click(function(){
-        $(this).css('transform','scale(1)');
-        delay(500);
-        $(this).css('transform','scale(1)');
+    $('#feuilleRecette').click(function(){
+        $(".feuilleRecetteAffiche").show();
+    });
+}
+function reduireFeuilleRecette(){
+    $('#feuilleRecetteGrand').click(function(){
+        $(".feuilleRecetteAffiche").hide();
+    });
+}
+function agrandireSuiviBug(){
+    $('.suiviBug').click(function(){
+        $(".suiviBugAffiche").show();
+    });
+}
+function reduireSuiviBug(){
+    $('.suiviBugGrand').click(function(){
+        $(".suiviBugAffiche").hide();
+    });
+}
+function agrandireBdd(){
+    $('.bdd').click(function(){
+        $('.bddAffiche').show();
+    });
+}
+function reduireBdd(){
+    $('.bddGrand').click(function(){
+        $('.bddAffiche').hide();
+    });
+}
+function agrandireDocker(){
+    $('.docker').click(function(){
+        $('.dockerAffiche').show();
+    });
+}
+function reduireDocker(){
+    $('.dockerGrand').click(function(){
+        $('.dockerAffiche').hide();
+    });
+}
+function agrandireErm(){
+    $('.erm').click(function(){
+        $('.ermAffiche').show();
+    });
+}
+function reduireErm(){
+    $('.ermGrand').click(function(){
+        $('.ermAffiche').hide();
     });
 }
 
@@ -202,6 +244,15 @@ function appelDesFonctions(){
     ouvertureActivitesCommunes();
     ouvertureActiviteSlam();
     agrandireFeuilleRecette();
+    reduireFeuilleRecette();
+    agrandireSuiviBug();
+    reduireSuiviBug();
+    agrandireBdd();
+    reduireBdd();
+    agrandireDocker();
+    reduireDocker();
+    agrandireErm();
+    reduireErm();
 }
 
 
@@ -217,6 +268,11 @@ $("#contenuStage2").hide();
 $(".table-situOblig").hide();
 $(".table-ActivCom").hide();
 $(".table-ActivSlam").hide();
+$(".feuilleRecetteAffiche").hide();
+$(".suiviBugAffiche").hide();
+$(".bddAffiche").hide();
+$('.dockerAffiche').hide();
+$('.ermAffiche').hide();
 
 
 
