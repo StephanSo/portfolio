@@ -189,51 +189,85 @@ function ouvertureActiviteSlam(){
 function agrandireFeuilleRecette(){
     $('#feuilleRecette').click(function(){
         $(".feuilleRecetteAffiche").show();
+        $('#page').css({
+           
+           opacity:'0.2',
+          
+        });
+        
     });
 }
 function reduireFeuilleRecette(){
     $('#feuilleRecetteGrand').click(function(){
         $(".feuilleRecetteAffiche").hide();
+        $('#page').css({ 
+           opacity:'1'
+        });
     });
 }
 function agrandireSuiviBug(){
     $('.suiviBug').click(function(){
         $(".suiviBugAffiche").show();
+        $('#page').css({ 
+           opacity:'0.2',
+        });
     });
 }
 function reduireSuiviBug(){
     $('.suiviBugGrand').click(function(){
         $(".suiviBugAffiche").hide();
+        $('#page').css({ 
+           opacity:'1'
+
+        });
     });
 }
 function agrandireBdd(){
     $('.bdd').click(function(){
         $('.bddAffiche').show();
+        $('#page').css({ 
+           opacity:'0.2',
+        });
     });
 }
 function reduireBdd(){
     $('.bddGrand').click(function(){
         $('.bddAffiche').hide();
+        $('#page').css({ 
+           opacity:'1'
+        });
     });
 }
 function agrandireDocker(){
     $('.docker').click(function(){
         $('.dockerAffiche').show();
+        $('#page').css({ 
+           opacity:'0.2',
+        });
     });
 }
 function reduireDocker(){
     $('.dockerGrand').click(function(){
         $('.dockerAffiche').hide();
+        $('#page').css({ 
+           opacity:'1'
+        });
     });
 }
 function agrandireErm(){
     $('.erm').click(function(){
         $('.ermAffiche').show();
+        $('#page').css({ 
+           opacity:'0.2',
+        });
     });
 }
 function reduireErm(){
     $('.ermGrand').click(function(){
         $('.ermAffiche').hide();
+        $('#page').css({ 
+           opacity:'1'
+        });
     });
 }
 
